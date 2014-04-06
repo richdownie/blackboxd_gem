@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "cucumber"
   s.add_runtime_dependency "selenium-webdriver"
   s.add_runtime_dependency "rspec"
-  s.files       = ["README.doc", "lib/blackboxd.rb"]
+  s.files       = ["README.rdoc", "lib/blackboxd.rb"]
   s.homepage    = 'https://github.com/richdownie/blackboxd_gem'
   s.license     = 'MIT'
 end
