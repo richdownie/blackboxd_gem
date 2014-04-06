@@ -10,6 +10,6 @@ features/google_test.feature
 
        Feature: Google test
  
-       Scenario: Click Signin Button
+       Scenario: Click Sign In Button
          * I am on the google home page
          * I click_on "gb_70" "id"
