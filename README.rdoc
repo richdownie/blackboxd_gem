@@ -1,9 +1,6 @@
 == Some handy steps when testing browsers with cucumber and selenium-webdriver
 
-Gem Dependencies:
-		$ cucumber
-		$ selenium-webdriver
-		$ rspec
+Gem Dependencies: cucumber, selenium-webdriver, rspec
 
 ** Just Add require 'blackboxd' to your cucumber features/support/env.rb file and start these steps found in lib/blackboxd.rb **
 
@@ -11,21 +8,23 @@ Gem Dependencies:
 == Examples:
 
 features/support/env.rb
-		require 'cucumber'
-		require 'selenium-webdriver'
-		require 'rspec'
-		require 'blackboxd'
 
-		Before do	
-  		  @driver = Selenium::WebDriver.for :chrome
-		  @driver.get("http://google.com")
-		end
+require 'cucumber'
+require 'selenium-webdriver'
+require 'rspec'
+require 'blackboxd'
 
-		After do
-  		  @driver.quit
-		end
+Before do	
+@driver = Selenium::WebDriver.for :chrome
+@driver.get("http://google.com")
+end
+
+After do
+@driver.quit
+end
 		
 features/google_test.feature
+
        Feature: Google test
  
        Scenario: Click Signin Butotn
