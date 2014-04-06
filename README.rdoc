@@ -2,12 +2,7 @@
 
 Gem Dependencies: cucumber, selenium-webdriver, rspec
 
-** Just Add 
-
-		require 'blackboxd' 
-		
-to your cucumber features/support/env.rb file and start these steps found in lib/blackboxd.rb **
-
+Add require 'blackboxd' to your cucumber features/support/env.rb file and start these steps found in lib/blackboxd.rb **
 
 == Example Feature:
 
