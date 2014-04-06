@@ -1,4 +1,4 @@
-== Some handy steps when testing browsers with cucumber and selenium-webdriver
+== Cucumber and Selenium-Webdriver Test Steps
 
 Gem Dependencies: cucumber, selenium-webdriver, rspec
 
