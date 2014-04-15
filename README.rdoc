@@ -2,7 +2,11 @@
 
 Gem Dependencies: cucumber, selenium-webdriver, rspec
 
-Add **require 'blackboxd'** to your cucumber features/support/env.rb file and start playing with the steps found in lib/blackboxd.rb **
+Add **require 'blackboxd'** to your cucumber features/support/env.rb file and start playing with these [Steps](https://github.com/richdownie/blackboxd_gem/blob/master/lib/blackboxd.rb)
+
+== Example features/support/env.rb:
+
+See [Gist](https://gist.github.com/richdownie/10763081)
 
 == Example Feature:
 
@@ -13,19 +17,3 @@ features/google_test.feature
        Scenario: Click Sign In Button
          * I am on the google home page
          * I click_on "gb_70" "id"
-
-== Example features/support/env.rb:
-
-		require 'blackboxd'
-		require 'cucumber'
-		require 'selenium-webdriver'
-		require 'rspec'
-
-		Before do
-		  @driver = Selenium::WebDriver.for :chrome	
-		  @time = 15
-		end
-
-		After do 
-		  @driver.quit
-		end
