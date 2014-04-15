@@ -13,3 +13,19 @@ features/google_test.feature
        Scenario: Click Sign In Button
          * I am on the google home page
          * I click_on "gb_70" "id"
+
+== Example features/support/env.rb:
+
+		require 'blackboxd'
+		require 'cucumber'
+		require 'selenium-webdriver'
+		require 'rspec'
+
+		Before do
+		  @driver = Selenium::WebDriver.for :chrome	
+		  @time = 15
+		end
+
+		After do 
+		  @driver.quit
+		end
