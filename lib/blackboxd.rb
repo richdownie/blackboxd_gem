@@ -46,7 +46,6 @@ end
 
 Given /I fill in "(.*)" with "(.*)"/ do |how, what|
   if (@driver.all(:id, how).count >= 1 ) then
-    # @driver.find_element(:id, how).clear
     @driver.find_element(:id, how).send_keys(what)
   elsif (@driver.all(:class, how).count >=1) then
     @driver.find_element(:class, how).clear

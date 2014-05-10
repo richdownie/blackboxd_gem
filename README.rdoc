@@ -1,5 +1,5 @@
 == How to Screencast!
-https://vimeo.com/92289719
+http://blackboxd.com/posts/9
 
 == Cucumber and Selenium-Webdriver Test Steps
 

@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'blackboxd'
-  s.version     = '0.2.8'
-  s.date        = '2014-04-17'
+  s.version     = '0.2.9'
+  s.date        = '2014-05-09'
   s.summary     = "Cucumber and Webdriver Testing Steps"
   s.description = "Cucumber and Webdriver Testing Steps"
   s.authors     = ["Rich Downie"]
